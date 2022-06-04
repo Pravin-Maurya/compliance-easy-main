@@ -1,0 +1,84 @@
+.login-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 225, 220);
+    width: 100%;
+    max-width: 350px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+
+}
+@media screen and (min-width:768px) {
+       .login-div{
+            width: 400px;
+       } 
+}
+.web-logo{
+    width: 180px;
+    height: 40px;
+}
+@media screen and (min-width:768px) {
+    .web-logo{
+        width: 210px;
+    }
+}
+.web-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.login-form{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.input-label{
+    color: #242424;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.user-input{
+    background: transparent;
+    border: 1px solid #6366f1;
+    max-width: 280px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+@media screen and (min-width:768px) {
+    .user-input{
+        width: 350px;
+    }
+}
+.login-btn{
+    background-color: #06433bce;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  border: none;
+  color: rgb(255, 253, 253);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.text-google-login{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}

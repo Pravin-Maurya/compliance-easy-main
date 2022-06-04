@@ -1,0 +1,129 @@
+.navbar{
+    background-color: #e8f9f2;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.logo{
+    width: 150px;
+    height: 40px;
+    margin-left: 5px;
+    padding-top: 8px;
+}
+@media screen and (min-width:768px) {
+    .logo{
+        width: 200px;
+    }
+}
+.list-menu-desktop{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .list-menu-desktop{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+}
+
+.list-item{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none !important;
+}
+.active-option{
+    text-decoration: underline;
+    color: black;
+}
+.items{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: black;
+}
+items:hover{
+    background-color: #d8fbec;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+}
+.avatar-mobile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+}
+@media screen and (min-width:768px) {
+    .avatar-mobile{
+        display: none;
+    }
+}
+.mobile-view{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:768px) {
+    .mobile-view{
+        display: none;
+    }
+    
+}
+.logout-btn{
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.hamburger-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 768px) {
+    .hamburger-btn {
+      display: none;
+    }
+  }
+  .hamburger-menu {
+    height: 12px;
+    width: 18px;
+    border-radius: 0px;
+    color: #183b56;
+  }
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 0px;
+    background-color: #e8f9f2;
+
+  }
+  .nav-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .popup-item-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .logout-mobile-btn:hover {
+    height: 35px;
+    width: 78px;
+  }

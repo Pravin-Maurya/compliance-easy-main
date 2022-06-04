@@ -1,0 +1,35 @@
+.body{
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-item-container{
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+  align-items: center;
+ 
+}
+/* @media screen and (min-width:412px) {
+  .navbar-item-container{
+    width: 400px;
+  }
+}
+@media screen and (min-width:768px) {
+  .navbar-item-container{
+    width: 700px;
+  }
+}
+@media screen and (min-width:820px) {
+  .navbar-item-container{
+    width: 750px;
+  }
+} */
+.item-link-container{
+  width: 50%; 
+  margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+  .item-link-container{
+    width: 95%;
+  }
+}
